@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="RikkeiLogistics Dat Xe" id="0">
+    <mxGraphModel dx="1245" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="95" width="50" x="90" as="geometry" />
+        </mxCell>
+        <mxCell id="app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" value="App Điều Phối" vertex="1">
+          <mxGeometry height="30" width="140" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="driver" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" value="Điện thoại Tài xế" vertex="1">
+          <mxGeometry height="30" width="150" x="610" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lc" edge="1" parent="1" style="endArrow=none;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="115" as="sourcePoint" />
+            <mxPoint x="115" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la" edge="1" parent="1" style="endArrow=none;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="84" as="sourcePoint" />
+            <mxPoint x="367" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ld" edge="1" parent="1" style="endArrow=none;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="682" y="84" as="sourcePoint" />
+            <mxPoint x="682" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aa" parent="1" style="fillColor=#ffffff;strokeColor=#000000;" vertex="1">
+          <mxGeometry height="500" width="10" x="362" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;" value="taoDonHang()">
+          <mxGeometry relative="1" x="-0.0688" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="115" y="145" as="sourcePoint" />
+            <mxPoint x="362" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="endArrow=open;endFill=0;html=1;" value="guiYeuCauNhanDon()&amp;nbsp;&lt;div&gt;Async()&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0452" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="372" y="215" as="sourcePoint" />
+            <mxPoint x="682" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="endArrow=open;endFill=0;html=1;" value="phanHoi()">
+          <mxGeometry relative="1" x="0.0452" y="-25" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="682" y="285" as="sourcePoint" />
+            <mxPoint x="372" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f" parent="1" style="fillColor=none;strokeColor=#000000;" vertex="1">
+          <mxGeometry height="205" width="694" x="240" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="al" parent="1" style="fillColor=#ffffff;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=5;" value="alt [Tài xế đồng ý]" vertex="1">
+          <mxGeometry height="28" width="180" x="260" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="div" edge="1" parent="1" source="el" style="endArrow=none;dashed=1;exitX=0;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="465" as="sourcePoint" />
+            <mxPoint x="936" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el" parent="1" style="fillColor=#ffffff;strokeColor=#000000;fontStyle=1;align=left;spacingLeft=5;" value="else [Tài xế từ chối]" vertex="1">
+          <mxGeometry height="28" width="185" x="260" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="trip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" value="Trip" vertex="1">
+          <mxGeometry height="30" width="90" x="890" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lt" edge="1" parent="1" style="endArrow=none;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="934.33" y="81" as="sourcePoint" />
+            <mxPoint x="934.33" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="create" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;entryX=0.998;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" target="f" value="&lt;p&gt;Create Trip&lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0269" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="372" y="410" as="sourcePoint" />
+            <mxPoint x="855" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfinal" edge="1" parent="1" style="endArrow=open;endFill=0;dashed=1;html=1;" value="Đã tìm thấy xe/ Không tim dc tài xế">
+          <mxGeometry relative="1" x="0.0688" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="362" y="630" as="sourcePoint" />
+            <mxPoint x="115" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qbNgrqxczwei-xPMlv7-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;không tạo Trip&lt;/p&gt;" vertex="1">
+          <mxGeometry height="20" width="50" x="620" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
